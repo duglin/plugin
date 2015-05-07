@@ -1,0 +1,2 @@
+set -xe
+GOPATH=$PWD/.. go build compose.go

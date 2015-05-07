@@ -1,0 +1,4 @@
+set -xe
+GOPATH=$PWD/.. go build plugin.go
+GOPATH=$PWD/.. go build cli.go
+./cli
